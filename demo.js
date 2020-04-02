@@ -1,11 +1,7 @@
-function name(arr) {
-    let a = Number("5");
-    let b = Number("3ss");
-    let c = parseInt("5ss");
-    let f = parseInt("sss3");
+function name(c,b) {
 
-    console.log(a + b);
-    console.log(c + f);
+    let a  =  c**b;
+    console.log(a);
 
 }
-name();
+name(2,2);
